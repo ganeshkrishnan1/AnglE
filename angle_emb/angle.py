@@ -1353,6 +1353,7 @@ class AnglE:
             epochs: int = 1,
             learning_rate: float = 1e-5,
             warmup_steps: int = 1000,
+            max_steps: int=-1,
             logging_steps: int = 10,
             eval_steps: Optional[int] = None,
             save_steps: int = 100,
